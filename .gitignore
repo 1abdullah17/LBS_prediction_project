@@ -1,4 +1,35 @@
+# Structure files
+data/pdb_raw/
+data/pdb_clean/
+data/alphafold_raw/
+data/alphafold_clean/
+
+# P2Rank installation
+p2rank_2.5/
+
+# Figures
+figures/
+
+# Python
 __pycache__/
-*.pdb
-*.pse
-*.png
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows metadata
+*:Zone.Identifier
+
+# Temporary Excel files
+~$*.xlsx
+
+# Debug
+debug/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
