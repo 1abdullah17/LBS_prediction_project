@@ -1,0 +1,1778 @@
+[INFO] Console - predicting pockets for proteins from dataset [alphafold.ds]
+[INFO] PredictPocketsRoutine - outdir: results/alphafold
+[INFO] Model - Loading model from directory (v3 format): /home/apo/LBS_prediction_project/p2rank_2.5/models/alphafold
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Dataset - processing dataset [alphafold.ds] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q02750-F1_clean.pdb] (1/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q02750-F1_clean.pdb] (1/50)
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P08922-F1_clean.pdb] (2/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P08922-F1_clean.pdb] (2/50)
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P08581-F1_clean.pdb] (3/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P08581-F1_clean.pdb] (3/50)
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P49841-F1_clean.pdb] (4/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P00533-F1_clean.pdb] (5/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P00533-F1_clean.pdb] (5/50)
+[INFO] Console - processing [AF-P49841-F1_clean.pdb] (4/50)
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P06239-F1_clean.pdb] (6/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-O96017-F1_clean.pdb] (7/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P06239-F1_clean.pdb] (6/50)
+[INFO] Console - processing [AF-O96017-F1_clean.pdb] (7/50)
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P51955-F1_clean.pdb] (8/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P51955-F1_clean.pdb] (8/50)
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q92630-F1_clean.pdb] (9/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q92630-F1_clean.pdb] (9/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P08581-F1_clean.pdb]
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P00533-F1_clean.pdb]
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P51955-F1_clean.pdb]
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q02750-F1_clean.pdb]
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O96017-F1_clean.pdb]
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q92630-F1_clean.pdb]
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P06239-F1_clean.pdb]
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P08922-F1_clean.pdb]
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P49841-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q02750-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P00533-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-O96017-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P08581-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q92630-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P51955-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P08922-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P49841-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P06239-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 446
+[INFO] Struct - all groups in chain A: 369
+[INFO] Struct - all groups in chain A: 345
+[INFO] Struct - all groups in chain A: 375
+[INFO] Struct - all groups in chain A: 413
+[INFO] Struct - all groups in chain A: 396
+[INFO] Struct - all groups in chain A: 934
+[INFO] Struct - all groups in chain A: 413
+[INFO] Struct - all groups in chain A: 446
+[INFO] Struct - all groups in chain A: 375
+[INFO] Struct - all groups in chain A: 369
+[INFO] Struct - all groups in chain A: 345
+[INFO] Struct - all groups in chain A: 396
+[INFO] Struct - 396 groups in chain A
+[INFO] Struct - 369 groups in chain A
+[INFO] Struct - 446 groups in chain A
+[INFO] Struct - 375 groups in chain A
+[INFO] Struct - all groups in chain A: 1197
+[INFO] Struct - 345 groups in chain A
+[INFO] Struct - 413 groups in chain A
+[INFO] Struct - all groups in chain A: 1197
+[INFO] Struct - all groups in chain A: 934
+[INFO] Struct - 1197 groups in chain A
+[INFO] Struct - 934 groups in chain A
+[INFO] Struct - all groups in chain A: 2010
+[INFO] Struct - all groups in chain A: 2010
+[INFO] Protein - structure atoms: 3092
+[INFO] Protein - protein   atoms: 3000
+[INFO] Protein - structure atoms: 2940
+[INFO] Protein - protein   atoms: 2872
+[INFO] Protein - ignoring ligands
+[INFO] Protein - structure atoms: 2708
+[INFO] Protein - ignoring ligands
+[INFO] Protein - protein   atoms: 2664
+[INFO] Protein - ignoring ligands
+[INFO] Protein - structure atoms: 3343
+[INFO] Protein - protein   atoms: 3280
+[INFO] Protein - ignoring ligands
+[INFO] Protein - structure atoms: 3612
+[INFO] Protein - protein   atoms: 3533
+[INFO] Protein - ignoring ligands
+[INFO] Struct - 2010 groups in chain A
+[INFO] Protein - structure atoms: 7300
+[INFO] Protein - protein   atoms: 7161
+[INFO] Protein - ignoring ligands
+[INFO] Protein - structure atoms: 9405
+[INFO] Protein - protein   atoms: 9276
+[INFO] Protein - ignoring ligands
+[INFO] Protein - structure atoms: 3199
+[INFO] Protein - protein   atoms: 3124
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - structure atoms: 16065
+[INFO] Protein - protein   atoms: 15775
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 5586
+[INFO] Protein - SAS points: 5922
+[INFO] Protein - SAS points: 8440
+[INFO] Protein - SAS points: 6379
+[INFO] Protein - exposed protein atoms: 1843 of 2664
+[INFO] Protein - exposed protein atoms: 1866 of 2872
+[INFO] Protein - exposed protein atoms: 2277 of 3000
+[INFO] Protein - exposed protein atoms: 2058 of 3124
+[INFO] Protein - SAS points: 7337
+[INFO] Protein - SAS points: 7103
+[INFO] Protein - exposed protein atoms: 2173 of 3280
+[INFO] Protein - exposed protein atoms: 2434 of 3533
+[INFO] Protein - SAS points: 15794
+[INFO] Protein - SAS points: 18883
+[INFO] Protein - exposed protein atoms: 4775 of 7161
+[INFO] Protein - exposed protein atoms: 6043 of 9276
+[INFO] Protein - SAS points: 32712
+[INFO] Protein - exposed protein atoms: 10615 of 15775
+[INFO] SLinkClusterer - clustering [57] elements
+[INFO] SLinkClusterer - clustering [97] elements
+[INFO] SLinkClusterer - clustering [103] elements
+[INFO] SLinkClusterer - clustering [141] elements
+[INFO] SLinkClusterer - clustering [70] elements
+[INFO] SLinkClusterer - clustering [138] elements
+[INFO] SLinkClusterer - clusters: [id:16( 1 ), id:19( 2 ), id:30( 5 ), id:32( 1 ), id:42( 2 ), id:49( 31 ), id:52( 5 ), id:53( 1 ), id:54( 7 ), id:55( 1 ), id:56( 1 )]
+[INFO] SLinkClusterer - clusters together: 57 / 57
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] SLinkClusterer - clusters: [id:1( 1 ), id:4( 4 ), id:47( 34 ), id:58( 15 ), id:63( 8 ), id:67( 4 ), id:68( 1 ), id:69( 3 )]
+[INFO] SLinkClusterer - clusters together: 70 / 70
+[INFO] PocketPredictor - SAS POINTS: 8440
+[INFO] PocketPredictor - LIGANDABLE POINTS: 57
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - CLUSTERS: 11
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - SAS POINTS: 6379
+[INFO] PocketPredictor - LIGANDABLE POINTS: 70
+[INFO] PocketPredictor - CLUSTERS: 8
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] SLinkClusterer - clusters: [id:24( 2 ), id:30( 17 ), id:31( 1 ), id:34( 3 ), id:36( 2 ), id:40( 1 ), id:41( 2 ), id:42( 1 ), id:71( 9 ), id:72( 2 ), id:80( 37 ), id:81( 1 ), id:86( 17 ), id:90( 2 ), id:102( 6 )]
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:16( 1 ), id:26( 3 ), id:29( 1 ), id:54( 46 ), id:73( 16 ), id:79( 4 ), id:82( 1 ), id:91( 12 ), id:93( 6 ), id:94( 2 ), id:96( 4 )]
+[INFO] SLinkClusterer - clusters together: 103 / 103
+[INFO] SLinkClusterer - clusters together: 97 / 97
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5922
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - LIGANDABLE POINTS: 103
+[INFO] PocketPredictor - SAS POINTS: 7103
+[INFO] PocketPredictor - CLUSTERS: 15
+[INFO] PocketPredictor - LIGANDABLE POINTS: 97
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] PocketPredictor - CLUSTERS: 12
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] SLinkClusterer - clusters: [id:8( 3 ), id:37( 3 ), id:45( 6 ), id:70( 2 ), id:78( 15 ), id:82( 3 ), id:89( 1 ), id:105( 10 ), id:110( 95 ), id:138( 1 ), id:139( 2 )]
+[INFO] SLinkClusterer - clusters together: 141 / 141
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] SLinkClusterer - clusters: [id:27( 11 ), id:28( 1 ), id:31( 12 ), id:41( 5 ), id:62( 22 ), id:78( 4 ), id:99( 6 ), id:111( 49 ), id:115( 8 ), id:116( 2 ), id:129( 4 ), id:130( 6 ), id:134( 1 ), id:135( 6 ), id:136( 1 )]
+[INFO] PocketPredictor - SAS POINTS: 5586
+[INFO] SLinkClusterer - clusters together: 138 / 138
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 7337
+[INFO] PocketPredictor - LIGANDABLE POINTS: 138
+[INFO] PocketPredictor - CLUSTERS: 15
+[INFO] PocketPredictor - FILTERED CLUSTERS: 11
+[INFO] PocketPredictor - LIGANDABLE POINTS: 141
+[INFO] PocketPredictor - CLUSTERS: 11
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  57   points:  46   score:   16.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  22   points:  12   score:    5.0
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  46   points:  34   score:   13.7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  30   points:  31   score:   12.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  30   points:  15   score:    6.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  25   points:   8   score:    2.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  17   points:   7   score:    3.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  20   points:   5   score:    2.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  14   points:   5   score:    1.5
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  20   points:  16   score:    4.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  10   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  44   points:  37   score:   13.9
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  23   points:  17   score:    6.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  20   points:   6   score:    1.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  17   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  17   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  20   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:   9   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  17   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  28   points:  17   score:    6.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  17   points:   9   score:    2.7
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  18   points:   6   score:    2.1
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  14   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  83   points:  95   score:   33.9
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  51   points:  49   score:   20.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  29   points:  22   score:    9.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  43   points:  11   score:    6.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  32   points:  15   score:    5.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  34   points:  12   score:    4.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  26   points:  10   score:    4.2
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  22   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  18   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  17   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  21   points:   8   score:    2.5
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  13   points:   6   score:    2.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  26   points:   6   score:    1.8
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  12   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  16   points:   6   score:    1.6
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  24   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  13   points:   4   score:    1.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  12   points:   3   score:    1.0
+[INFO] SLinkClusterer - clustering [143] elements
+[INFO] SLinkClusterer - clusters: [id:17( 12 ), id:31( 2 ), id:34( 6 ), id:42( 8 ), id:47( 1 ), id:48( 5 ), id:54( 23 ), id:59( 1 ), id:61( 2 ), id:62( 1 ), id:69( 12 ), id:72( 3 ), id:89( 5 ), id:90( 1 ), id:91( 7 ), id:96( 7 ), id:98( 1 ), id:103( 7 ), id:104( 1 ), id:106( 2 ), id:108( 2 ), id:109( 1 ), id:120( 3 ), id:126( 1 ), id:134( 27 ), id:141( 1 ), id:142( 1 )]
+[INFO] SLinkClusterer - clusters together: 143 / 143
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 15794
+[INFO] PocketPredictor - LIGANDABLE POINTS: 143
+[INFO] PocketPredictor - CLUSTERS: 27
+[INFO] PocketPredictor - FILTERED CLUSTERS: 13
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  40   points:  27   score:   10.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  32   points:  23   score:    8.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  20   points:  12   score:    3.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  14   points:   7   score:    3.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  30   points:  12   score:    3.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  19   points:   7   score:    3.0
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  19   points:   6   score:    2.7
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  18   points:   7   score:    2.5
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  20   points:   8   score:    2.4
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  10   points:   5   score:    2.0
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  19   points:   5   score:    1.7
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  12   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  10   points:   3   score:    0.7
+[INFO] SLinkClusterer - clustering [167] elements
+[INFO] SLinkClusterer - clusters: [id:1( 1 ), id:5( 1 ), id:11( 3 ), id:20( 17 ), id:30( 4 ), id:33( 2 ), id:34( 1 ), id:35( 4 ), id:39( 6 ), id:41( 1 ), id:56( 1 ), id:59( 17 ), id:60( 1 ), id:61( 2 ), id:62( 1 ), id:63( 1 ), id:66( 9 ), id:67( 1 ), id:68( 1 ), id:70( 2 ), id:74( 4 ), id:75( 1 ), id:88( 3 ), id:92( 4 ), id:100( 7 ), id:101( 1 ), id:107( 11 ), id:110( 3 ), id:113( 5 ), id:115( 1 ), id:123( 1 ), id:124( 1 ), id:128( 1 ), id:133( 4 ), id:142( 1 ), id:150( 33 ), id:157( 1 ), id:159( 4 ), id:161( 1 ), id:166( 4 )]
+[INFO] SLinkClusterer - clusters together: 167 / 167
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 18883
+[INFO] PocketPredictor - LIGANDABLE POINTS: 167
+[INFO] PocketPredictor - CLUSTERS: 40
+[INFO] PocketPredictor - FILTERED CLUSTERS: 18
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  29   points:  33   score:   13.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  33   points:  17   score:    7.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  35   points:  17   score:    6.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:   9   score:    3.6
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  19   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  20   points:  11   score:    3.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  20   points:   6   score:    2.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  15   points:   4   score:    2.2
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  20   points:   4   score:    1.7
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  20   points:   3   score:    1.7
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  17   points:   5   score:    1.5
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  18   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  17   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  15   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  13   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  20   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  17   points:   4   score:    1.1
+[INFO] PocketPredictor - pocket18 -  surf_atoms:   9   points:   3   score:    0.8
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P49841-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P49841-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P06239-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P06239-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q02750-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q02750-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q92630-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q92630-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P51955-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P51955-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O96017-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-O96017-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-O60674-F1_clean.pdb] (10/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-O60674-F1_clean.pdb] (10/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O60674-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q06187-F1_clean.pdb] (11/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q16539-F1_clean.pdb] (12/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q08345-F1_clean.pdb] (13/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q6P5Z2-F1_clean.pdb] (14/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P15056-F1_clean.pdb] (15/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P15056-F1_clean.pdb] (15/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P15056-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P15056-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-O60674-F1_clean.pdb]
+[INFO] Console - processing [AF-Q6P5Z2-F1_clean.pdb] (14/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q6P5Z2-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q6P5Z2-F1_clean.pdb]
+[INFO] Console - processing [AF-Q16539-F1_clean.pdb] (12/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q16539-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q16539-F1_clean.pdb]
+[INFO] Console - processing [AF-Q06187-F1_clean.pdb] (11/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q06187-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q06187-F1_clean.pdb]
+[INFO] Console - processing [AF-Q08345-F1_clean.pdb] (13/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q08345-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q08345-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 344
+[INFO] Struct - all groups in chain A: 683
+[INFO] Struct - all groups in chain A: 728
+[INFO] Struct - all groups in chain A: 470
+[INFO] Struct - all groups in chain A: 612
+[INFO] Struct - all groups in chain A: 344
+[INFO] Struct - all groups in chain A: 470
+[INFO] Struct - all groups in chain A: 612
+[INFO] Struct - 344 groups in chain A
+[INFO] Struct - all groups in chain A: 683
+[INFO] Struct - 470 groups in chain A
+[INFO] Struct - 612 groups in chain A
+[INFO] Struct - all groups in chain A: 728
+[INFO] Struct - 683 groups in chain A
+[INFO] Struct - 728 groups in chain A
+[INFO] Protein - structure atoms: 2781
+[INFO] Protein - protein   atoms: 2724
+[INFO] Protein - structure atoms: 3780
+[INFO] Protein - protein   atoms: 3710
+[INFO] Protein - ignoring ligands
+[INFO] Protein - ignoring ligands
+[INFO] Struct - all groups in chain A: 1059
+[INFO] Protein - structure atoms: 5016
+[INFO] Protein - protein   atoms: 4904
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - structure atoms: 5446
+[INFO] Protein - protein   atoms: 5287
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Struct - all groups in chain A: 1059
+[INFO] Struct - 1059 groups in chain A
+[INFO] Protein - structure atoms: 5782
+[INFO] Protein - protein   atoms: 5647
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - structure atoms: 8655
+[INFO] Protein - protein   atoms: 8477
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 5515
+[INFO] Protein - SAS points: 8956
+[INFO] Protein - exposed protein atoms: 1796 of 2724
+[INFO] Protein - SAS points: 9957
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P00533-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P00533-F1_clean.pdb]
+[INFO] Protein - SAS points: 10747
+[INFO] Protein - SAS points: 11948
+[INFO] Protein - exposed protein atoms: 2718 of 3710
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q96GD4-F1_clean.pdb] (16/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q96GD4-F1_clean.pdb] (16/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q96GD4-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q96GD4-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 261
+[INFO] Struct - all groups in chain A: 261
+[INFO] Struct - 261 groups in chain A
+[INFO] Protein - exposed protein atoms: 3847 of 5647
+[INFO] SLinkClusterer - clustering [422] elements
+[INFO] Protein - structure atoms: 2137
+[INFO] Protein - protein   atoms: 2083
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - exposed protein atoms: 3502 of 5287
+[INFO] Protein - exposed protein atoms: 3257 of 4904
+[INFO] SLinkClusterer - clusters: [id:4( 2 ), id:6( 5 ), id:8( 1 ), id:12( 8 ), id:17( 2 ), id:18( 1 ), id:21( 3 ), id:22( 1 ), id:23( 1 ), id:25( 1 ), id:35( 6 ), id:37( 1 ), id:59( 1 ), id:72( 2 ), id:85( 13 ), id:86( 1 ), id:88( 1 ), id:95( 8 ), id:96( 1 ), id:107( 67 ), id:128( 2 ), id:134( 1 ), id:137( 6 ), id:140( 4 ), id:160( 2 ), id:165( 46 ), id:173( 1 ), id:174( 1 ), id:183( 5 ), id:184( 2 ), id:188( 1 ), id:203( 2 ), id:204( 4 ), id:208( 1 ), id:213( 3 ), id:216( 11 ), id:219( 7 ), id:230( 5 ), id:232( 2 ), id:234( 2 ), id:235( 1 ), id:237( 2 ), id:262( 1 ), id:264( 2 ), id:265( 1 ), id:288( 12 ), id:308( 79 ), id:312( 4 ), id:313( 1 ), id:316( 9 ), id:318( 1 ), id:329( 1 ), id:336( 3 ), id:337( 1 ), id:361( 13 ), id:363( 1 ), id:370( 5 ), id:371( 1 ), id:373( 1 ), id:374( 2 ), id:377( 2 ), id:379( 2 ), id:382( 1 ), id:385( 3 ), id:386( 3 ), id:389( 4 ), id:390( 1 ), id:391( 1 ), id:402( 1 ), id:413( 26 ), id:417( 1 ), id:421( 2 )]
+[INFO] SLinkClusterer - clusters together: 422 / 422
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 32712
+[INFO] PocketPredictor - LIGANDABLE POINTS: 422
+[INFO] PocketPredictor - CLUSTERS: 72
+[INFO] PocketPredictor - FILTERED CLUSTERS: 27
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  57   points:  79   score:   23.9
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  57   points:  67   score:   20.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  42   points:  46   score:   16.1
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  40   points:  26   score:    9.7
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  22   points:  13   score:    5.1
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  19   points:  12   score:    4.7
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  28   points:  13   score:    4.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  15   points:  11   score:    3.3
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  17   points:   8   score:    3.2
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  26   points:   9   score:    3.2
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  15   points:   8   score:    2.4
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  14   points:   7   score:    2.3
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  19   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  11   points:   6   score:    2.1
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  18   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  13   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket17 -  surf_atoms:   9   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  13   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  18   points:   5   score:    1.5
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  18   points:   5   score:    1.4
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  16   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket22 -  surf_atoms:  12   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket23 -  surf_atoms:  14   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket24 -  surf_atoms:   6   points:   5   score:    1.2
+[INFO] PocketPredictor - pocket25 -  surf_atoms:  17   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket26 -  surf_atoms:  19   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket27 -  surf_atoms:  13   points:   3   score:    0.9
+[INFO] Protein - SAS points: 16119
+[INFO] Protein - SAS points: 4199
+[INFO] Protein - exposed protein atoms: 1318 of 2083
+[INFO] Protein - exposed protein atoms: 5482 of 8477
+[INFO] SLinkClusterer - clustering [93] elements
+[INFO] SLinkClusterer - clusters: [id:7( 1 ), id:30( 9 ), id:31( 1 ), id:35( 38 ), id:40( 9 ), id:54( 7 ), id:58( 6 ), id:60( 2 ), id:80( 3 ), id:81( 1 ), id:87( 2 ), id:88( 8 ), id:92( 6 )]
+[INFO] SLinkClusterer - clusters together: 93 / 93
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5515
+[INFO] PocketPredictor - LIGANDABLE POINTS: 93
+[INFO] PocketPredictor - CLUSTERS: 13
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  58   points:  38   score:   12.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  22   points:   9   score:    3.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  22   points:   9   score:    3.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  17   points:   8   score:    3.0
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  14   points:   6   score:    2.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  16   points:   7   score:    2.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  16   points:   6   score:    1.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  21   points:   3   score:    1.5
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P08581-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P08581-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-O43293-F1_clean.pdb] (17/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-O43293-F1_clean.pdb] (17/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O43293-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-O43293-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 426
+[INFO] Struct - all groups in chain A: 426
+[INFO] Struct - 426 groups in chain A
+[INFO] SLinkClusterer - clustering [82] elements
+[INFO] SLinkClusterer - clusters: [id:23( 2 ), id:24( 40 ), id:34( 3 ), id:36( 2 ), id:38( 8 ), id:46( 1 ), id:48( 1 ), id:50( 1 ), id:61( 4 ), id:72( 7 ), id:74( 1 ), id:75( 1 ), id:79( 8 ), id:81( 3 )]
+[INFO] SLinkClusterer - clusters together: 82 / 82
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 4199
+[INFO] PocketPredictor - LIGANDABLE POINTS: 82
+[INFO] PocketPredictor - CLUSTERS: 14
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] Protein - structure atoms: 3478
+[INFO] Protein - protein   atoms: 3388
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  61   points:  40   score:   15.1
+[INFO] SLinkClusterer - clustering [110] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:17( 1 ), id:19( 1 ), id:23( 8 ), id:24( 1 ), id:40( 2 ), id:46( 1 ), id:52( 7 ), id:75( 11 ), id:91( 57 ), id:94( 4 ), id:102( 3 ), id:104( 6 ), id:105( 1 ), id:106( 2 ), id:107( 1 ), id:109( 2 )]
+[INFO] SLinkClusterer - clusters together: 110 / 110
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 8956
+[INFO] PocketPredictor - LIGANDABLE POINTS: 110
+[INFO] PocketPredictor - CLUSTERS: 18
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  19   points:   8   score:    2.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  18   points:   7   score:    2.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  15   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  16   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:   6   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  16   points:   3   score:    0.7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  52   points:  57   score:   26.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  20   points:  11   score:    3.6
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  25   points:   7   score:    3.1
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  16   points:   8   score:    2.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  22   points:   4   score:    2.0
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  10   points:   3   score:    1.9
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  14   points:   6   score:    1.4
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q16539-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q16539-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P31751-F1_clean.pdb] (18/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P31751-F1_clean.pdb] (18/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P31751-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P31751-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [162] elements
+[INFO] SLinkClusterer - clusters: [id:7( 3 ), id:9( 1 ), id:15( 1 ), id:21( 3 ), id:24( 5 ), id:25( 1 ), id:31( 2 ), id:33( 10 ), id:56( 2 ), id:72( 1 ), id:77( 30 ), id:79( 1 ), id:80( 12 ), id:84( 8 ), id:86( 3 ), id:87( 13 ), id:89( 1 ), id:122( 1 ), id:125( 2 ), id:131( 1 ), id:141( 38 ), id:149( 8 ), id:153( 6 ), id:155( 1 ), id:156( 1 ), id:157( 2 ), id:158( 1 ), id:159( 1 ), id:160( 3 )]
+[INFO] SLinkClusterer - clusters together: 162 / 162
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 9957
+[INFO] PocketPredictor - LIGANDABLE POINTS: 162
+[INFO] PocketPredictor - CLUSTERS: 29
+[INFO] PocketPredictor - FILTERED CLUSTERS: 13
+[INFO] Struct - all groups in chain A: 431
+[INFO] Struct - all groups in chain A: 431
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  41   points:  38   score:   16.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  45   points:  30   score:   10.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  33   points:  13   score:    5.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  31   points:  12   score:    4.5
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  29   points:  10   score:    4.5
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  10   points:   8   score:    3.6
+[INFO] Struct - 431 groups in chain A
+[INFO] Protein - structure atoms: 3545
+[INFO] Protein - protein   atoms: 3457
+[INFO] Protein - ignoring ligands
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  13   points:   8   score:    2.3
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  18   points:   5   score:    1.9
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  19   points:   6   score:    1.8
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  21   points:   3   score:    1.8
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  20   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  17   points:   3   score:    1.0
+[INFO] SLinkClusterer - clustering [126] elements
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  10   points:   3   score:    0.7
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:9( 4 ), id:10( 1 ), id:16( 1 ), id:19( 13 ), id:22( 1 ), id:23( 1 ), id:24( 2 ), id:25( 1 ), id:26( 1 ), id:27( 2 ), id:50( 15 ), id:59( 8 ), id:85( 2 ), id:88( 7 ), id:91( 12 ), id:93( 21 ), id:97( 1 ), id:101( 1 ), id:102( 1 ), id:104( 1 ), id:112( 6 ), id:113( 1 ), id:118( 15 ), id:119( 1 ), id:120( 1 ), id:124( 2 ), id:125( 3 )]
+[INFO] SLinkClusterer - clusters together: 126 / 126
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10747
+[INFO] PocketPredictor - LIGANDABLE POINTS: 126
+[INFO] PocketPredictor - CLUSTERS: 28
+[INFO] PocketPredictor - FILTERED CLUSTERS: 10
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  37   points:  21   score:   10.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  25   points:  12   score:    4.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  26   points:  13   score:    4.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  33   points:  15   score:    4.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  17   points:   8   score:    4.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  27   points:  15   score:    4.2
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  21   points:   6   score:    2.9
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  28   points:   7   score:    2.2
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  13   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket10 -  surf_atoms:   9   points:   3   score:    1.0
+[INFO] SLinkClusterer - clustering [217] elements
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q96GD4-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q96GD4-F1_clean.pdb]
+[INFO] SLinkClusterer - clusters: [id:8( 23 ), id:15( 1 ), id:21( 11 ), id:26( 1 ), id:44( 8 ), id:50( 1 ), id:54( 11 ), id:84( 4 ), id:87( 1 ), id:89( 1 ), id:94( 22 ), id:131( 106 ), id:141( 4 ), id:143( 7 ), id:199( 1 ), id:204( 5 ), id:205( 2 ), id:207( 1 ), id:208( 5 ), id:215( 1 ), id:216( 1 )]
+[INFO] SLinkClusterer - clusters together: 217 / 217
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 11948
+[INFO] PocketPredictor - LIGANDABLE POINTS: 217
+[INFO] PocketPredictor - CLUSTERS: 21
+[INFO] PocketPredictor - FILTERED CLUSTERS: 11
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P23458-F1_clean.pdb] (19/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P23458-F1_clean.pdb] (19/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P23458-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P23458-F1_clean.pdb]
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  97   points: 106   score:   37.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  44   points:  23   score:    8.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  29   points:  22   score:    8.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  26   points:  11   score:    4.5
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  33   points:  11   score:    3.9
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  21   points:   8   score:    2.9
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  18   points:   5   score:    2.2
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  14   points:   7   score:    2.1
+[INFO] Protein - SAS points: 8728
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  16   points:   5   score:    2.0
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  12   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  14   points:   4   score:    1.1
+[INFO] Protein - SAS points: 6990
+[INFO] Struct - all groups in chain A: 1070
+[INFO] Struct - all groups in chain A: 1070
+[INFO] Struct - 1070 groups in chain A
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P15056-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P15056-F1_clean.pdb]
+[INFO] Protein - structure atoms: 8663
+[INFO] Protein - protein   atoms: 8497
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P10721-F1_clean.pdb] (20/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P10721-F1_clean.pdb] (20/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P10721-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P10721-F1_clean.pdb]
+[INFO] Protein - exposed protein atoms: 2512 of 3388
+[INFO] Struct - all groups in chain A: 818
+[INFO] Struct - all groups in chain A: 818
+[INFO] Struct - 818 groups in chain A
+[INFO] Protein - exposed protein atoms: 2221 of 3457
+[INFO] Protein - structure atoms: 6493
+[INFO] Protein - protein   atoms: 6383
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q06187-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q06187-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P07333-F1_clean.pdb] (21/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P07333-F1_clean.pdb] (21/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P07333-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P07333-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [520] elements
+[INFO] Struct - all groups in chain A: 790
+[INFO] Struct - all groups in chain A: 790
+[INFO] Struct - 790 groups in chain A
+[INFO] SLinkClusterer - clusters: [id:7( 6 ), id:58( 14 ), id:68( 33 ), id:95( 18 ), id:97( 2 ), id:105( 1 ), id:106( 1 ), id:107( 5 ), id:119( 3 ), id:132( 1 ), id:139( 4 ), id:143( 81 ), id:155( 4 ), id:180( 1 ), id:192( 8 ), id:210( 4 ), id:211( 1 ), id:212( 1 ), id:215( 1 ), id:219( 3 ), id:220( 2 ), id:221( 2 ), id:223( 3 ), id:224( 1 ), id:279( 5 ), id:297( 2 ), id:301( 22 ), id:303( 5 ), id:342( 112 ), id:344( 6 ), id:364( 1 ), id:365( 1 ), id:367( 1 ), id:377( 1 ), id:387( 33 ), id:397( 2 ), id:403( 3 ), id:427( 32 ), id:472( 1 ), id:498( 69 ), id:501( 4 ), id:502( 1 ), id:505( 1 ), id:508( 2 ), id:513( 6 ), id:517( 6 ), id:518( 1 ), id:519( 3 )]
+[INFO] SLinkClusterer - clusters together: 520 / 520
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 16119
+[INFO] PocketPredictor - LIGANDABLE POINTS: 520
+[INFO] PocketPredictor - CLUSTERS: 48
+[INFO] PocketPredictor - FILTERED CLUSTERS: 26
+[INFO] Protein - structure atoms: 6201
+[INFO] Protein - protein   atoms: 6093
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  99   points: 112   score:   44.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  73   points:  81   score:   35.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  87   points:  69   score:   26.9
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  49   points:  32   score:   13.5
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  50   points:  33   score:   12.4
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  47   points:  33   score:   10.5
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  22   points:  18   score:    7.1
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  32   points:  22   score:    6.8
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  26   points:  14   score:    5.9
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  20   points:   4   score:    2.6
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  19   points:   5   score:    2.5
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  22   points:   8   score:    2.5
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  20   points:   6   score:    2.4
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  14   points:   5   score:    2.2
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  24   points:   6   score:    2.2
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  21   points:   6   score:    2.0
+[INFO] PocketPredictor - pocket17 -  surf_atoms:   7   points:   3   score:    1.8
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  18   points:   5   score:    1.7
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  23   points:   4   score:    1.7
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  16   points:   6   score:    1.6
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  17   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket22 -  surf_atoms:   9   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket23 -  surf_atoms:  14   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket24 -  surf_atoms:  16   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket25 -  surf_atoms:  14   points:   3   score:    0.9
+[INFO] PocketPredictor - pocket26 -  surf_atoms:   9   points:   3   score:    0.7
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q08345-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q08345-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P43405-F1_clean.pdb] (22/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P43405-F1_clean.pdb] (22/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P43405-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P43405-F1_clean.pdb]
+[INFO] Protein - SAS points: 14726
+[INFO] Struct - all groups in chain A: 555
+[INFO] Struct - all groups in chain A: 555
+[INFO] Struct - 555 groups in chain A
+[INFO] Protein - structure atoms: 4469
+[INFO] Protein - protein   atoms: 4376
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] SLinkClusterer - clustering [78] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:14( 1 ), id:20( 32 ), id:28( 1 ), id:29( 1 ), id:40( 1 ), id:57( 24 ), id:58( 3 ), id:65( 1 ), id:67( 2 ), id:74( 3 ), id:75( 6 ), id:76( 2 )]
+[INFO] SLinkClusterer - clusters together: 78 / 78
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 6990
+[INFO] PocketPredictor - LIGANDABLE POINTS: 78
+[INFO] PocketPredictor - CLUSTERS: 13
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] Protein - exposed protein atoms: 4440 of 6383
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  49   points:  32   score:   14.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  30   points:  24   score:    8.5
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  22   points:   6   score:    2.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  11   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  10   points:   3   score:    1.4
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q6P5Z2-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q6P5Z2-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P11802-F1_clean.pdb] (23/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P11802-F1_clean.pdb] (23/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P11802-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P11802-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 282
+[INFO] Struct - all groups in chain A: 282
+[INFO] Struct - 282 groups in chain A
+[INFO] Protein - structure atoms: 2230
+[INFO] Protein - protein   atoms: 2173
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] SLinkClusterer - clustering [83] elements
+[INFO] SLinkClusterer - clusters: [id:25( 1 ), id:26( 2 ), id:45( 23 ), id:54( 37 ), id:66( 1 ), id:67( 1 ), id:68( 1 ), id:71( 2 ), id:73( 1 ), id:77( 7 ), id:79( 4 ), id:80( 3 )]
+[INFO] SLinkClusterer - clusters together: 83 / 83
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 8728
+[INFO] PocketPredictor - LIGANDABLE POINTS: 83
+[INFO] PocketPredictor - CLUSTERS: 12
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] Protein - SAS points: 4396
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  51   points:  37   score:   12.9
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  35   points:  23   score:    9.5
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  28   points:   7   score:    2.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  22   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:   5   points:   3   score:    0.5
+[INFO] Protein - exposed protein atoms: 1425 of 2173
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P31751-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P31751-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q8TD19-F1_clean.pdb] (24/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q8TD19-F1_clean.pdb] (24/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q8TD19-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q8TD19-F1_clean.pdb]
+[INFO] Protein - SAS points: 16536
+[INFO] Protein - SAS points: 8157
+[INFO] Protein - exposed protein atoms: 2732 of 4376
+[INFO] Protein - SAS points: 13942
+[INFO] Struct - all groups in chain A: 734
+[INFO] Struct - all groups in chain A: 734
+[INFO] Struct - 734 groups in chain A
+[INFO] Protein - structure atoms: 5786
+[INFO] Protein - protein   atoms: 5675
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - exposed protein atoms: 4257 of 6093
+[INFO] Protein - exposed protein atoms: 5529 of 8497
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P08922-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P08922-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O60674-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-O60674-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [59] elements
+[INFO] SLinkClusterer - clusters: [id:13( 1 ), id:24( 1 ), id:26( 4 ), id:29( 1 ), id:46( 2 ), id:49( 39 ), id:50( 2 ), id:51( 1 ), id:54( 1 ), id:55( 1 ), id:58( 6 )]
+[INFO] SLinkClusterer - clusters together: 59 / 59
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 4396
+[INFO] PocketPredictor - LIGANDABLE POINTS: 59
+[INFO] PocketPredictor - CLUSTERS: 11
+[INFO] PocketPredictor - FILTERED CLUSTERS: 3
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O43293-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-O43293-F1_clean.pdb]
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  44   points:  39   score:   14.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  14   points:   6   score:    2.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  13   points:   4   score:    1.5
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P00519-F1_clean.pdb] (25/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P00519-F1_clean.pdb] (25/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P00519-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P00519-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P28482-F1_clean.pdb] (26/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P28482-F1_clean.pdb] (26/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P28482-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P28482-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 574
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q9Y6M4-F1_clean.pdb] (27/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q9Y6M4-F1_clean.pdb] (27/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q9Y6M4-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q9Y6M4-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 574
+[INFO] Struct - all groups in chain A: 345
+[INFO] Struct - 574 groups in chain A
+[INFO] Protein - structure atoms: 4569
+[INFO] Protein - protein   atoms: 4479
+[INFO] Protein - ignoring ligands
+[INFO] Struct - all groups in chain A: 345
+[INFO] Struct - 345 groups in chain A
+[INFO] Struct - all groups in chain A: 302
+[INFO] Struct - all groups in chain A: 302
+[INFO] Struct - 302 groups in chain A
+[INFO] Protein - structure atoms: 2820
+[INFO] Protein - protein   atoms: 2760
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - structure atoms: 2484
+[INFO] Protein - protein   atoms: 2421
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 11462
+[INFO] Protein - SAS points: 5372
+[INFO] Protein - exposed protein atoms: 3680 of 5675
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P11802-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P11802-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P11362-F1_clean.pdb] (28/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P11362-F1_clean.pdb] (28/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P11362-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P11362-F1_clean.pdb]
+[INFO] Protein - exposed protein atoms: 1784 of 2760
+[INFO] Struct - all groups in chain A: 630
+[INFO] Struct - all groups in chain A: 630
+[INFO] Struct - 630 groups in chain A
+[INFO] Protein - structure atoms: 4986
+[INFO] Protein - protein   atoms: 4890
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 4573
+[INFO] SLinkClusterer - clustering [144] elements
+[INFO] SLinkClusterer - clusters: [id:18( 12 ), id:21( 11 ), id:22( 1 ), id:23( 4 ), id:31( 1 ), id:39( 9 ), id:43( 1 ), id:48( 2 ), id:49( 2 ), id:63( 27 ), id:67( 4 ), id:68( 4 ), id:70( 1 ), id:89( 1 ), id:91( 2 ), id:92( 2 ), id:104( 32 ), id:106( 2 ), id:110( 9 ), id:118( 5 ), id:119( 1 ), id:123( 1 ), id:125( 2 ), id:127( 5 ), id:132( 2 ), id:133( 1 )]
+[INFO] SLinkClusterer - clusters together: 144 / 144
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 8157
+[INFO] PocketPredictor - LIGANDABLE POINTS: 144
+[INFO] PocketPredictor - CLUSTERS: 26
+[INFO] PocketPredictor - FILTERED CLUSTERS: 11
+[INFO] Protein - exposed protein atoms: 1521 of 2421
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  40   points:  32   score:   11.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  40   points:  27   score:    9.6
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  22   points:  12   score:    4.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  29   points:  11   score:    4.2
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  26   points:   9   score:    3.0
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  20   points:   9   score:    2.2
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  12   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  16   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  17   points:   5   score:    1.2
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  10   points:   5   score:    1.2
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  18   points:   4   score:    1.2
+[INFO] SLinkClusterer - clustering [82] elements
+[INFO] SLinkClusterer - clusters: [id:1( 2 ), id:3( 2 ), id:4( 1 ), id:6( 1 ), id:7( 2 ), id:8( 1 ), id:13( 5 ), id:14( 1 ), id:15( 1 ), id:30( 1 ), id:37( 1 ), id:40( 1 ), id:44( 5 ), id:47( 1 ), id:52( 1 ), id:60( 33 ), id:62( 1 ), id:65( 6 ), id:67( 1 ), id:70( 2 ), id:74( 10 ), id:76( 1 ), id:77( 2 )]
+[INFO] SLinkClusterer - clusters together: 82 / 82
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 14726
+[INFO] PocketPredictor - LIGANDABLE POINTS: 82
+[INFO] PocketPredictor - CLUSTERS: 23
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  48   points:  33   score:   11.8
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  22   points:  10   score:    3.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  33   points:   6   score:    3.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  22   points:   5   score:    2.1
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  16   points:   5   score:    1.5
+[INFO] Protein - SAS points: 9322
+[INFO] Protein - exposed protein atoms: 3067 of 4479
+[INFO] Protein - SAS points: 12431
+[INFO] SLinkClusterer - clustering [73] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:4( 1 ), id:6( 4 ), id:10( 4 ), id:13( 2 ), id:18( 10 ), id:23( 1 ), id:24( 1 ), id:42( 1 ), id:43( 1 ), id:44( 1 ), id:52( 1 ), id:58( 39 ), id:68( 1 ), id:71( 3 ), id:72( 1 )]
+[INFO] SLinkClusterer - clusters together: 73 / 73
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 13942
+[INFO] PocketPredictor - LIGANDABLE POINTS: 73
+[INFO] PocketPredictor - CLUSTERS: 17
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  38   points:  39   score:   16.1
+[INFO] SLinkClusterer - clustering [36] elements
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  28   points:  10   score:    3.2
+[INFO] SLinkClusterer - clusters: [id:19( 29 ), id:24( 2 ), id:32( 3 ), id:34( 1 ), id:35( 1 )]
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  19   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  10   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:   9   points:   3   score:    0.6
+[INFO] SLinkClusterer - clustering [84] elements
+[INFO] SLinkClusterer - clusters: [id:31( 2 ), id:55( 8 ), id:56( 4 ), id:62( 41 ), id:63( 2 ), id:68( 3 ), id:74( 7 ), id:78( 9 ), id:79( 1 ), id:80( 2 ), id:82( 4 ), id:83( 1 )]
+[INFO] SLinkClusterer - clusters together: 84 / 84
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5372
+[INFO] PocketPredictor - LIGANDABLE POINTS: 84
+[INFO] PocketPredictor - CLUSTERS: 12
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] Protein - exposed protein atoms: 3512 of 4890
+[INFO] SLinkClusterer - clusters together: 36 / 36
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 4573
+[INFO] PocketPredictor - LIGANDABLE POINTS: 36
+[INFO] PocketPredictor - CLUSTERS: 5
+[INFO] PocketPredictor - FILTERED CLUSTERS: 2
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  44   points:  29   score:   11.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  15   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  34   points:  41   score:   14.8
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  16   points:   8   score:    2.6
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  20   points:   9   score:    2.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  16   points:   7   score:    2.2
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  15   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  13   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  22   points:   3   score:    1.1
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P43405-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P43405-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q9UM73-F1_clean.pdb] (29/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q9UM73-F1_clean.pdb] (29/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q9UM73-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q9UM73-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 1181
+[INFO] Struct - all groups in chain A: 1181
+[INFO] Struct - 1181 groups in chain A
+[INFO] Protein - structure atoms: 9077
+[INFO] Protein - protein   atoms: 8903
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P10721-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P10721-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P35968-F1_clean.pdb] (30/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P35968-F1_clean.pdb] (30/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P35968-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P35968-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 1010
+[INFO] Struct - all groups in chain A: 1010
+[INFO] Struct - 1010 groups in chain A
+[INFO] Protein - structure atoms: 8007
+[INFO] Protein - protein   atoms: 7856
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q9Y6M4-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q9Y6M4-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P53350-F1_clean.pdb] (31/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P53350-F1_clean.pdb] (31/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P53350-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P53350-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 520
+[INFO] Struct - all groups in chain A: 520
+[INFO] Struct - 520 groups in chain A
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P28482-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P28482-F1_clean.pdb]
+[INFO] Protein - structure atoms: 4215
+[INFO] Protein - protein   atoms: 4108
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P24941-F1_clean.pdb] (32/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P24941-F1_clean.pdb] (32/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P24941-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P24941-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 290
+[INFO] Struct - all groups in chain A: 290
+[INFO] Struct - 290 groups in chain A
+[INFO] Protein - structure atoms: 2326
+[INFO] Protein - protein   atoms: 2283
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P07333-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P07333-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P27361-F1_clean.pdb] (33/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P27361-F1_clean.pdb] (33/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P27361-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P27361-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 349
+[INFO] Struct - all groups in chain A: 349
+[INFO] Struct - 349 groups in chain A
+[INFO] SLinkClusterer - clustering [523] elements
+[INFO] Protein - structure atoms: 2846
+[INFO] Protein - protein   atoms: 2783
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] SLinkClusterer - clusters: [id:62( 2 ), id:65( 5 ), id:66( 1 ), id:75( 25 ), id:90( 1 ), id:112( 7 ), id:115( 2 ), id:119( 4 ), id:120( 3 ), id:123( 4 ), id:124( 1 ), id:134( 32 ), id:142( 1 ), id:159( 3 ), id:165( 89 ), id:217( 10 ), id:230( 4 ), id:237( 11 ), id:238( 1 ), id:239( 2 ), id:245( 3 ), id:246( 6 ), id:281( 5 ), id:295( 35 ), id:296( 1 ), id:297( 1 ), id:298( 1 ), id:311( 118 ), id:315( 2 ), id:324( 34 ), id:362( 1 ), id:371( 1 ), id:390( 4 ), id:400( 2 ), id:402( 7 ), id:406( 2 ), id:409( 5 ), id:417( 20 ), id:424( 1 ), id:462( 2 ), id:483( 3 ), id:491( 36 ), id:505( 2 ), id:511( 1 ), id:512( 13 ), id:521( 3 ), id:522( 6 )]
+[INFO] SLinkClusterer - clusters together: 523 / 523
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 16536
+[INFO] PocketPredictor - LIGANDABLE POINTS: 523
+[INFO] PocketPredictor - CLUSTERS: 47
+[INFO] PocketPredictor - FILTERED CLUSTERS: 27
+[INFO] SLinkClusterer - clustering [238] elements
+[INFO] SLinkClusterer - clusters: [id:11( 1 ), id:29( 8 ), id:51( 3 ), id:71( 2 ), id:72( 1 ), id:73( 1 ), id:79( 18 ), id:83( 1 ), id:84( 1 ), id:97( 44 ), id:103( 5 ), id:108( 10 ), id:114( 1 ), id:115( 1 ), id:119( 12 ), id:126( 29 ), id:142( 1 ), id:145( 1 ), id:156( 1 ), id:160( 3 ), id:166( 6 ), id:167( 1 ), id:192( 53 ), id:198( 2 ), id:206( 1 ), id:209( 1 ), id:218( 4 ), id:233( 7 ), id:235( 19 )]
+[INFO] SLinkClusterer - clusters together: 238 / 238
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 11462
+[INFO] PocketPredictor - LIGANDABLE POINTS: 238
+[INFO] PocketPredictor - CLUSTERS: 29
+[INFO] PocketPredictor - FILTERED CLUSTERS: 14
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  32   points:  53   score:   16.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  48   points:  44   score:   16.6
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  40   points:  29   score:    9.7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms: 107   points: 118   score:   43.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  24   points:  19   score:    8.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  84   points:  89   score:   30.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  45   points:  34   score:   14.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  31   points:  18   score:    4.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  42   points:  36   score:   14.2
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  38   points:  32   score:   13.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  48   points:  35   score:   12.2
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  34   points:  20   score:    8.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  42   points:  25   score:    7.6
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  23   points:  11   score:    4.7
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  24   points:  10   score:    3.9
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  19   points:  12   score:    3.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  19   points:   8   score:    3.4
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  13   points:   6   score:    2.4
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  16   points:   7   score:    2.0
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  17   points:   4   score:    1.9
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  19   points:   3   score:    1.5
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  21   points:   5   score:    1.4
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  13   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  26   points:  13   score:    4.1
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  16   points:  10   score:    3.1
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  26   points:   7   score:    3.0
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  22   points:   7   score:    3.0
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  21   points:   4   score:    2.2
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  15   points:   6   score:    2.0
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  20   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  16   points:   5   score:    1.7
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  17   points:   6   score:    1.5
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  13   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  16   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  10   points:   4   score:    1.2
+[INFO] PocketPredictor - pocket22 -  surf_atoms:  18   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket23 -  surf_atoms:   6   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket24 -  surf_atoms:  11   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket25 -  surf_atoms:  17   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket26 -  surf_atoms:  11   points:   5   score:    1.0
+[INFO] PocketPredictor - pocket27 -  surf_atoms:   4   points:   3   score:    0.7
+[INFO] Protein - SAS points: 4550
+[INFO] Protein - SAS points: 5265
+[INFO] Protein - exposed protein atoms: 1473 of 2283
+[INFO] Protein - SAS points: 18731
+[INFO] SLinkClusterer - clustering [229] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:8( 1 ), id:16( 1 ), id:23( 2 ), id:34( 1 ), id:48( 13 ), id:50( 1 ), id:52( 8 ), id:86( 5 ), id:92( 30 ), id:98( 1 ), id:100( 1 ), id:104( 16 ), id:127( 1 ), id:153( 44 ), id:176( 50 ), id:178( 4 ), id:194( 6 ), id:218( 38 ), id:220( 3 ), id:227( 1 ), id:228( 1 )]
+[INFO] SLinkClusterer - clusters together: 229 / 229
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 9322
+[INFO] Protein - exposed protein atoms: 1742 of 2783
+[INFO] PocketPredictor - LIGANDABLE POINTS: 229
+[INFO] PocketPredictor - CLUSTERS: 22
+[INFO] PocketPredictor - FILTERED CLUSTERS: 11
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  54   points:  50   score:   18.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  60   points:  44   score:   13.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  38   points:  38   score:   12.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  48   points:  30   score:   11.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  31   points:  16   score:    6.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  33   points:  13   score:    4.8
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  16   points:   8   score:    3.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  16   points:   6   score:    2.0
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  17   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  17   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  21   points:   3   score:    1.2
+[INFO] Protein - SAS points: 8010
+[INFO] Protein - exposed protein atoms: 5537 of 7856
+[INFO] Protein - exposed protein atoms: 2626 of 4108
+[INFO] SLinkClusterer - clustering [69] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:2( 1 ), id:8( 4 ), id:22( 2 ), id:27( 1 ), id:28( 1 ), id:31( 1 ), id:42( 15 ), id:44( 5 ), id:46( 12 ), id:51( 1 ), id:54( 1 ), id:55( 5 ), id:61( 14 ), id:67( 3 ), id:68( 1 )]
+[INFO] SLinkClusterer - clusters together: 69 / 69
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 12431
+[INFO] PocketPredictor - LIGANDABLE POINTS: 69
+[INFO] PocketPredictor - CLUSTERS: 17
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  26   points:  15   score:    6.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  40   points:  14   score:    5.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  32   points:  12   score:    4.2
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  23   points:   5   score:    2.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  16   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  14   points:   5   score:    1.4
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  13   points:   3   score:    0.9
+[INFO] Protein - SAS points: 20243
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P00519-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P00519-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [91] elements
+[INFO] SLinkClusterer - clusters: [id:4( 1 ), id:5( 1 ), id:29( 1 ), id:31( 1 ), id:46( 1 ), id:47( 9 ), id:48( 1 ), id:57( 40 ), id:66( 3 ), id:71( 1 ), id:79( 2 ), id:86( 23 ), id:87( 1 ), id:88( 1 ), id:89( 3 ), id:90( 2 )]
+[INFO] SLinkClusterer - clusters together: 91 / 91
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5265
+[INFO] PocketPredictor - LIGANDABLE POINTS: 91
+[INFO] PocketPredictor - CLUSTERS: 16
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q00534-F1_clean.pdb] (34/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q00534-F1_clean.pdb] (34/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q00534-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q00534-F1_clean.pdb]
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  45   points:  40   score:   14.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  27   points:  23   score:    6.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  15   points:   9   score:    3.1
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  11   points:   3   score:    1.8
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  16   points:   3   score:    1.5
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q8TD19-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q8TD19-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 298
+[INFO] Struct - all groups in chain A: 298
+[INFO] Struct - 298 groups in chain A
+[INFO] Protein - structure atoms: 2392
+[INFO] Protein - protein   atoms: 2337
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q9UKE5-F1_clean.pdb] (35/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q9UKE5-F1_clean.pdb] (35/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q9UKE5-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q9UKE5-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [64] elements
+[INFO] SLinkClusterer - clusters: [id:22( 2 ), id:23( 3 ), id:27( 5 ), id:33( 1 ), id:45( 3 ), id:49( 39 ), id:59( 4 ), id:61( 4 ), id:63( 3 )]
+[INFO] SLinkClusterer - clusters together: 64 / 64
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 4550
+[INFO] PocketPredictor - LIGANDABLE POINTS: 64
+[INFO] PocketPredictor - CLUSTERS: 9
+[INFO] PocketPredictor - FILTERED CLUSTERS: 7
+[INFO] Struct - all groups in chain A: 780
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  47   points:  39   score:   14.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  11   points:   4   score:    2.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  13   points:   4   score:    2.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:   9   points:   3   score:    1.6
+[INFO] Struct - all groups in chain A: 780
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  13   points:   5   score:    1.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:   8   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  10   points:   3   score:    0.9
+[INFO] Struct - 780 groups in chain A
+[INFO] Protein - exposed protein atoms: 6169 of 8903
+[INFO] Protein - structure atoms: 6472
+[INFO] Protein - protein   atoms: 6298
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P11362-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P11362-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-O14965-F1_clean.pdb] (36/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-O14965-F1_clean.pdb] (36/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O14965-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-O14965-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 279
+[INFO] Struct - all groups in chain A: 279
+[INFO] Struct - 279 groups in chain A
+[INFO] Protein - structure atoms: 2285
+[INFO] Protein - protein   atoms: 2229
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 4877
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P23458-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P23458-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P27361-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P27361-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P31749-F1_clean.pdb] (37/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P31749-F1_clean.pdb] (37/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P31749-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P31749-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 432
+[INFO] Struct - all groups in chain A: 432
+[INFO] Struct - 432 groups in chain A
+[INFO] Protein - structure atoms: 3560
+[INFO] Protein - protein   atoms: 3481
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q8TDX7-F1_clean.pdb] (38/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q8TDX7-F1_clean.pdb] (38/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q8TDX7-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q8TDX7-F1_clean.pdb]
+[INFO] Protein - exposed protein atoms: 1566 of 2337
+[INFO] Struct - all groups in chain A: 278
+[INFO] Struct - all groups in chain A: 278
+[INFO] Struct - 278 groups in chain A
+[INFO] Protein - structure atoms: 2251
+[INFO] Protein - protein   atoms: 2202
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P24941-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P24941-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P36888-F1_clean.pdb] (39/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P36888-F1_clean.pdb] (39/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P36888-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P36888-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [178] elements
+[INFO] SLinkClusterer - clusters: [id:10( 1 ), id:26( 2 ), id:27( 1 ), id:47( 2 ), id:49( 5 ), id:77( 85 ), id:107( 8 ), id:108( 3 ), id:119( 3 ), id:124( 20 ), id:130( 1 ), id:139( 4 ), id:142( 4 ), id:144( 22 ), id:153( 1 ), id:154( 1 ), id:155( 1 ), id:164( 1 ), id:175( 13 )]
+[INFO] SLinkClusterer - clusters together: 178 / 178
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 8010
+[INFO] PocketPredictor - LIGANDABLE POINTS: 178
+[INFO] PocketPredictor - CLUSTERS: 19
+[INFO] PocketPredictor - FILTERED CLUSTERS: 10
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  81   points:  85   score:   33.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  33   points:  22   score:    7.5
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  43   points:  20   score:    7.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  16   points:  13   score:    4.5
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  18   points:   8   score:    3.7
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  17   points:   4   score:    1.9
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  16   points:   5   score:    1.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  17   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:   9   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  14   points:   4   score:    1.1
+[INFO] Protein - SAS points: 4582
+[INFO] Struct - all groups in chain A: 838
+[INFO] Struct - all groups in chain A: 838
+[INFO] Struct - 838 groups in chain A
+[INFO] Protein - SAS points: 5022
+[INFO] Protein - structure atoms: 6728
+[INFO] Protein - protein   atoms: 6604
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - exposed protein atoms: 1433 of 2202
+[INFO] Protein - SAS points: 7143
+[INFO] Protein - exposed protein atoms: 1436 of 2229
+[INFO] Protein - exposed protein atoms: 2292 of 3481
+[INFO] Protein - SAS points: 16258
+[INFO] Protein - exposed protein atoms: 4543 of 6298
+[INFO] SLinkClusterer - clustering [48] elements
+[INFO] SLinkClusterer - clusters: [id:16( 1 ), id:21( 1 ), id:36( 39 ), id:43( 2 ), id:47( 5 )]
+[INFO] SLinkClusterer - clusters together: 48 / 48
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 4877
+[INFO] PocketPredictor - LIGANDABLE POINTS: 48
+[INFO] PocketPredictor - CLUSTERS: 5
+[INFO] PocketPredictor - FILTERED CLUSTERS: 2
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  39   points:  39   score:   14.8
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  10   points:   5   score:    1.5
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P53350-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P53350-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-O94768-F1_clean.pdb] (40/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-O94768-F1_clean.pdb] (40/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O94768-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-O94768-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 299
+[INFO] Struct - all groups in chain A: 299
+[INFO] Struct - 299 groups in chain A
+[INFO] Protein - structure atoms: 2393
+[INFO] Protein - protein   atoms: 2356
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] SLinkClusterer - clustering [57] elements
+[INFO] SLinkClusterer - clusters: [id:13( 1 ), id:21( 3 ), id:44( 41 ), id:54( 11 ), id:56( 1 )]
+[INFO] SLinkClusterer - clusters together: 57 / 57
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 4582
+[INFO] PocketPredictor - LIGANDABLE POINTS: 57
+[INFO] PocketPredictor - CLUSTERS: 5
+[INFO] PocketPredictor - FILTERED CLUSTERS: 3
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  55   points:  41   score:   15.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  26   points:  11   score:    4.2
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  12   points:   3   score:    1.0
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q00534-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q00534-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P12931-F1_clean.pdb] (41/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P12931-F1_clean.pdb] (41/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P12931-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P12931-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [85] elements
+[INFO] SLinkClusterer - clusters: [id:28( 2 ), id:37( 3 ), id:39( 6 ), id:45( 2 ), id:53( 31 ), id:77( 35 ), id:81( 1 ), id:83( 3 ), id:84( 2 )]
+[INFO] SLinkClusterer - clusters together: 85 / 85
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5022
+[INFO] PocketPredictor - LIGANDABLE POINTS: 85
+[INFO] PocketPredictor - CLUSTERS: 9
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] Protein - SAS points: 4986
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  47   points:  35   score:   13.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  35   points:  31   score:   12.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  14   points:   6   score:    2.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:   3   score:    1.2
+[INFO] SLinkClusterer - clustering [73] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:1( 1 ), id:2( 1 ), id:3( 1 ), id:7( 1 ), id:8( 1 ), id:10( 7 ), id:35( 1 ), id:39( 2 ), id:40( 1 ), id:41( 2 ), id:43( 4 ), id:53( 40 ), id:64( 2 ), id:69( 4 ), id:70( 1 ), id:71( 1 ), id:72( 2 )]
+[INFO] SLinkClusterer - clusters together: 73 / 73
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 18731
+[INFO] PocketPredictor - LIGANDABLE POINTS: 73
+[INFO] PocketPredictor - CLUSTERS: 18
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  20   points:   3   score:    1.2
+[INFO] Struct - all groups in chain A: 453
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  44   points:  40   score:   14.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  18   points:   7   score:    2.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  14   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:   6   points:   4   score:    0.8
+[INFO] Struct - all groups in chain A: 453
+[INFO] Struct - 453 groups in chain A
+[INFO] Protein - SAS points: 15407
+[INFO] Protein - structure atoms: 3633
+[INFO] Protein - protein   atoms: 3547
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - exposed protein atoms: 1556 of 2356
+[INFO] SLinkClusterer - clustering [96] elements
+[INFO] SLinkClusterer - clusters: [id:20( 38 ), id:25( 24 ), id:27( 1 ), id:39( 1 ), id:42( 1 ), id:50( 1 ), id:74( 3 ), id:76( 3 ), id:77( 1 ), id:79( 2 ), id:90( 12 ), id:92( 9 )]
+[INFO] SLinkClusterer - clusters together: 96 / 96
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 7143
+[INFO] PocketPredictor - LIGANDABLE POINTS: 96
+[INFO] PocketPredictor - CLUSTERS: 12
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  50   points:  38   score:   16.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  35   points:  24   score:    9.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  31   points:  12   score:    3.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  16   points:   9   score:    3.1
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  13   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:   9   points:   3   score:    1.3
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q8TDX7-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q8TDX7-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q9NYV4-F1_clean.pdb] (42/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q9NYV4-F1_clean.pdb] (42/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q9NYV4-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q9NYV4-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 469
+[INFO] Struct - all groups in chain A: 469
+[INFO] Struct - 469 groups in chain A
+[INFO] Protein - structure atoms: 3733
+[INFO] Protein - protein   atoms: 3672
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - exposed protein atoms: 4628 of 6604
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O14965-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-O14965-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-Q13464-F1_clean.pdb] (43/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-Q13464-F1_clean.pdb] (43/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q13464-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-Q13464-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 1222
+[INFO] Struct - all groups in chain A: 1222
+[INFO] Struct - 1222 groups in chain A
+[INFO] Protein - structure atoms: 10079
+[INFO] Protein - protein   atoms: 9889
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P31749-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P31749-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-O14757-F1_clean.pdb] (44/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-O14757-F1_clean.pdb] (44/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O14757-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-O14757-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 367
+[INFO] Struct - all groups in chain A: 367
+[INFO] Struct - 367 groups in chain A
+[INFO] Protein - structure atoms: 2998
+[INFO] Protein - protein   atoms: 2937
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 7095
+[INFO] Protein - exposed protein atoms: 2372 of 3547
+[INFO] Protein - SAS points: 9808
+[INFO] SLinkClusterer - clustering [62] elements
+[INFO] SLinkClusterer - clusters: [id:25( 5 ), id:41( 26 ), id:49( 23 ), id:57( 1 ), id:59( 5 ), id:61( 2 )]
+[INFO] SLinkClusterer - clusters together: 62 / 62
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 4986
+[INFO] PocketPredictor - LIGANDABLE POINTS: 62
+[INFO] PocketPredictor - CLUSTERS: 6
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  35   points:  26   score:   10.7
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  43   points:  23   score:    9.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  21   points:   5   score:    1.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  17   points:   5   score:    1.5
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P35968-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P35968-F1_clean.pdb]
+[INFO] Protein - SAS points: 5910
+[INFO] Protein - exposed protein atoms: 2703 of 3672
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P52333-F1_clean.pdb] (45/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P52333-F1_clean.pdb] (45/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P52333-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P52333-F1_clean.pdb]
+[INFO] Protein - exposed protein atoms: 1890 of 2937
+[INFO] Struct - all groups in chain A: 1034
+[INFO] Struct - all groups in chain A: 1034
+[INFO] SLinkClusterer - clustering [160] elements
+[INFO] Struct - 1034 groups in chain A
+[INFO] SLinkClusterer - clusters: [id:2( 3 ), id:5( 3 ), id:7( 1 ), id:11( 2 ), id:14( 4 ), id:15( 2 ), id:21( 6 ), id:33( 3 ), id:34( 1 ), id:35( 3 ), id:36( 2 ), id:38( 7 ), id:41( 5 ), id:77( 2 ), id:78( 2 ), id:80( 2 ), id:82( 2 ), id:92( 1 ), id:93( 1 ), id:94( 1 ), id:95( 1 ), id:96( 2 ), id:101( 6 ), id:102( 1 ), id:113( 1 ), id:115( 2 ), id:127( 22 ), id:131( 1 ), id:133( 2 ), id:145( 5 ), id:150( 2 ), id:153( 29 ), id:157( 33 )]
+[INFO] SLinkClusterer - clusters together: 160 / 160
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 20243
+[INFO] PocketPredictor - LIGANDABLE POINTS: 160
+[INFO] PocketPredictor - CLUSTERS: 33
+[INFO] PocketPredictor - FILTERED CLUSTERS: 13
+[INFO] Protein - structure atoms: 8130
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  38   points:  33   score:   12.2
+[INFO] Protein - protein   atoms: 7936
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  34   points:  22   score:    9.6
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  36   points:  29   score:    7.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  23   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  16   points:   5   score:    1.8
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  18   points:   6   score:    1.7
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  19   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  13   points:   6   score:    1.6
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  19   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  14   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  12   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  10   points:   3   score:    0.8
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O94768-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-O94768-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-O15530-F1_clean.pdb] (46/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-O15530-F1_clean.pdb] (46/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O15530-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-O15530-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 435
+[INFO] Struct - all groups in chain A: 435
+[INFO] Struct - 435 groups in chain A
+[INFO] Protein - structure atoms: 3588
+[INFO] Protein - protein   atoms: 3512
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 30821
+[INFO] SLinkClusterer - clustering [121] elements
+[INFO] SLinkClusterer - clusters: [id:12( 4 ), id:17( 1 ), id:18( 2 ), id:23( 1 ), id:33( 6 ), id:42( 35 ), id:48( 1 ), id:50( 3 ), id:52( 2 ), id:53( 1 ), id:54( 1 ), id:57( 1 ), id:67( 2 ), id:74( 1 ), id:76( 1 ), id:78( 1 ), id:80( 7 ), id:82( 4 ), id:99( 2 ), id:101( 2 ), id:102( 1 ), id:103( 1 ), id:108( 37 ), id:111( 3 ), id:120( 1 )]
+[INFO] SLinkClusterer - clusters together: 121 / 121
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 16258
+[INFO] PocketPredictor - LIGANDABLE POINTS: 121
+[INFO] PocketPredictor - CLUSTERS: 25
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  40   points:  35   score:   13.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  53   points:  37   score:   13.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  23   points:   7   score:    2.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  22   points:   6   score:    2.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  10   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:   7   points:   3   score:    1.6
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  20   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  13   points:   3   score:    0.8
+[INFO] Protein - SAS points: 7169
+[INFO] Protein - exposed protein atoms: 2206 of 3512
+[INFO] SLinkClusterer - clustering [113] elements
+[INFO] SLinkClusterer - clusters: [id:2( 3 ), id:4( 1 ), id:9( 15 ), id:10( 1 ), id:21( 1 ), id:23( 4 ), id:24( 1 ), id:25( 1 ), id:26( 1 ), id:28( 1 ), id:29( 1 ), id:34( 4 ), id:35( 1 ), id:36( 2 ), id:59( 8 ), id:75( 1 ), id:77( 2 ), id:78( 3 ), id:87( 2 ), id:88( 2 ), id:89( 1 ), id:94( 25 ), id:95( 9 ), id:98( 15 ), id:105( 1 ), id:107( 1 ), id:109( 2 ), id:110( 2 ), id:111( 1 ), id:112( 1 )]
+[INFO] SLinkClusterer - clusters together: 113 / 113
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 15407
+[INFO] PocketPredictor - LIGANDABLE POINTS: 113
+[INFO] PocketPredictor - CLUSTERS: 30
+[INFO] PocketPredictor - FILTERED CLUSTERS: 9
+[INFO] SLinkClusterer - clustering [115] elements
+[INFO] SLinkClusterer - clusters: [id:46( 18 ), id:74( 1 ), id:104( 26 ), id:105( 60 ), id:106( 1 ), id:108( 4 ), id:111( 2 ), id:114( 3 )]
+[INFO] SLinkClusterer - clusters together: 115 / 115
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5910
+[INFO] PocketPredictor - LIGANDABLE POINTS: 115
+[INFO] PocketPredictor - CLUSTERS: 8
+[INFO] PocketPredictor - FILTERED CLUSTERS: 5
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  31   points:  25   score:    9.6
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  39   points:  15   score:    5.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  31   points:  15   score:    4.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  21   points:   9   score:    2.8
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  26   points:   8   score:    2.7
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  11   points:   4   score:    1.5
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  14   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  11   points:   4   score:    1.1
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  15   points:   3   score:    1.1
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  75   points:  60   score:   21.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  32   points:  26   score:    9.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  26   points:  18   score:    6.1
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  26   points:   4   score:    2.0
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  14   points:   3   score:    0.9
+[INFO] Protein - exposed protein atoms: 8076 of 9889
+[INFO] SLinkClusterer - clustering [161] elements
+[INFO] SLinkClusterer - clusters: [id:9( 1 ), id:23( 7 ), id:26( 1 ), id:27( 1 ), id:28( 7 ), id:71( 1 ), id:73( 3 ), id:77( 15 ), id:81( 13 ), id:117( 82 ), id:144( 4 ), id:149( 10 ), id:158( 6 ), id:159( 3 ), id:160( 7 )]
+[INFO] SLinkClusterer - clusters together: 161 / 161
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 7095
+[INFO] PocketPredictor - LIGANDABLE POINTS: 161
+[INFO] PocketPredictor - CLUSTERS: 15
+[INFO] PocketPredictor - FILTERED CLUSTERS: 11
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  63   points:  82   score:   29.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  33   points:  15   score:    5.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  28   points:  13   score:    4.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  27   points:  10   score:    3.2
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  29   points:   7   score:    2.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  31   points:   7   score:    2.3
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  26   points:   7   score:    1.8
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  21   points:   6   score:    1.6
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  20   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  17   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket11 -  surf_atoms:   7   points:   3   score:    0.8
+[INFO] Protein - SAS points: 14676
+[INFO] Protein - exposed protein atoms: 5236 of 7936
+[INFO] SLinkClusterer - clustering [123] elements
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O14757-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-O14757-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P07949-F1_clean.pdb] (47/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P07949-F1_clean.pdb] (47/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P07949-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P07949-F1_clean.pdb]
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:18( 61 ), id:27( 1 ), id:76( 1 ), id:77( 1 ), id:87( 2 ), id:93( 4 ), id:94( 1 ), id:95( 2 ), id:100( 11 ), id:103( 6 ), id:112( 5 ), id:120( 27 )]
+[INFO] SLinkClusterer - clusters together: 123 / 123
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 9808
+[INFO] PocketPredictor - LIGANDABLE POINTS: 123
+[INFO] PocketPredictor - CLUSTERS: 13
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  55   points:  61   score:   22.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  44   points:  27   score:   12.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  28   points:  11   score:    2.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  14   points:   5   score:    1.9
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  13   points:   6   score:    1.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  13   points:   4   score:    1.2
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P12931-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P12931-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q9UM73-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q9UM73-F1_clean.pdb]
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-O95819-F1_clean.pdb] (48/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-O95819-F1_clean.pdb] (48/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O95819-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-O95819-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 905
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P49761-F1_clean.pdb] (49/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P49761-F1_clean.pdb] (49/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P49761-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P49761-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 905
+[INFO] Struct - all groups in chain A: 352
+[INFO] Struct - 905 groups in chain A
+[INFO] Struct - all groups in chain A: 352
+[INFO] Struct - 352 groups in chain A
+[INFO] Protein - structure atoms: 2915
+[INFO] Protein - protein   atoms: 2856
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - structure atoms: 7162
+[INFO] Protein - protein   atoms: 6992
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] Struct - all groups in chain A: 785
+[INFO] Struct - all groups in chain A: 785
+[INFO] Struct - 785 groups in chain A
+[INFO] Protein - structure atoms: 6516
+[INFO] Protein - protein   atoms: 6323
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q9UKE5-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q9UKE5-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [115] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:26( 1 ), id:36( 1 ), id:40( 1 ), id:48( 9 ), id:57( 58 ), id:60( 4 ), id:82( 9 ), id:86( 7 ), id:93( 4 ), id:103( 2 ), id:105( 1 ), id:107( 3 ), id:109( 3 ), id:113( 11 )]
+[INFO] SLinkClusterer - clusters together: 115 / 115
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 7169
+[INFO] PocketPredictor - LIGANDABLE POINTS: 115
+[INFO] PocketPredictor - CLUSTERS: 15
+[INFO] PocketPredictor - FILTERED CLUSTERS: 9
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  68   points:  58   score:   21.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  19   points:  11   score:    5.1
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  21   points:   9   score:    3.8
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  28   points:   9   score:    3.0
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  21   points:   7   score:    2.4
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  16   points:   3   score:    1.6
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [AF-P04626-F1_clean.pdb] (50/50)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [AF-P04626-F1_clean.pdb] (50/50)
+[INFO] Protein - loading protein [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P04626-F1_clean.pdb]
+[INFO] PdbUtils - loading file [./data/alphafold_clean/AF-P04626-F1_clean.pdb]
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  15   points:   4   score:    1.6
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  12   points:   3   score:    1.4
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  15   points:   4   score:    1.3
+[INFO] Protein - SAS points: 5460
+[INFO] Struct - all groups in chain A: 947
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q9NYV4-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q9NYV4-F1_clean.pdb]
+[INFO] Struct - all groups in chain A: 947
+[INFO] Struct - 947 groups in chain A
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P36888-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P36888-F1_clean.pdb]
+[INFO] Protein - exposed protein atoms: 1753 of 2856
+[INFO] Protein - structure atoms: 7394
+[INFO] Protein - protein   atoms: 7236
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, atom_table]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O15530-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-O15530-F1_clean.pdb]
+[INFO] Protein - SAS points: 15073
+[INFO] Protein - exposed protein atoms: 4859 of 6992
+[INFO] Protein - SAS points: 16320
+[INFO] Protein - exposed protein atoms: 4548 of 6323
+[INFO] Protein - SAS points: 15723
+[INFO] SLinkClusterer - clustering [73] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:34( 2 ), id:37( 1 ), id:49( 4 ), id:52( 4 ), id:55( 36 ), id:60( 11 ), id:65( 7 ), id:68( 3 ), id:70( 2 ), id:72( 2 )]
+[INFO] Protein - exposed protein atoms: 4826 of 7236
+[INFO] SLinkClusterer - clusters together: 73 / 73
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5460
+[INFO] PocketPredictor - LIGANDABLE POINTS: 73
+[INFO] PocketPredictor - CLUSTERS: 11
+[INFO] PocketPredictor - FILTERED CLUSTERS: 6
+[INFO] SLinkClusterer - clustering [498] elements
+[INFO] SLinkClusterer - clusters: [id:3( 1 ), id:36( 46 ), id:50( 1 ), id:59( 10 ), id:64( 3 ), id:78( 2 ), id:81( 7 ), id:88( 1 ), id:92( 3 ), id:93( 2 ), id:102( 44 ), id:109( 1 ), id:110( 2 ), id:124( 1 ), id:136( 8 ), id:137( 4 ), id:146( 1 ), id:157( 7 ), id:179( 8 ), id:181( 1 ), id:184( 2 ), id:185( 1 ), id:189( 6 ), id:192( 5 ), id:203( 1 ), id:252( 44 ), id:253( 1 ), id:257( 1 ), id:267( 1 ), id:283( 30 ), id:323( 2 ), id:325( 63 ), id:331( 9 ), id:332( 10 ), id:333( 1 ), id:334( 1 ), id:343( 26 ), id:371( 1 ), id:378( 5 ), id:397( 12 ), id:407( 13 ), id:409( 2 ), id:423( 23 ), id:427( 1 ), id:428( 3 ), id:429( 5 ), id:431( 2 ), id:445( 45 ), id:476( 11 ), id:478( 2 ), id:485( 3 ), id:488( 3 ), id:493( 6 ), id:497( 4 )]
+[INFO] SLinkClusterer - clusters together: 498 / 498
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 14676
+[INFO] PocketPredictor - LIGANDABLE POINTS: 498
+[INFO] PocketPredictor - CLUSTERS: 54
+[INFO] PocketPredictor - FILTERED CLUSTERS: 30
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  45   points:  36   score:   15.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  25   points:  11   score:    3.8
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  10   points:   7   score:    3.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  24   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  16   points:   4   score:    1.3
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  12   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  52   points:  63   score:   25.4
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  48   points:  44   score:   17.6
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  51   points:  45   score:   17.6
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  49   points:  44   score:   16.8
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  52   points:  46   score:   14.5
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  31   points:  30   score:   10.8
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  36   points:  26   score:    8.8
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  31   points:  23   score:    6.9
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  34   points:  13   score:    4.9
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  44   points:  12   score:    4.3
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  30   points:  10   score:    3.8
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  31   points:  11   score:    3.6
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  28   points:   9   score:    3.5
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  26   points:  10   score:    3.2
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  17   points:   8   score:    2.9
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  22   points:   8   score:    2.8
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  28   points:   7   score:    2.7
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  20   points:   6   score:    2.0
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  24   points:   5   score:    2.0
+[INFO] PocketPredictor - pocket20 -  surf_atoms:  15   points:   6   score:    1.9
+[INFO] PocketPredictor - pocket21 -  surf_atoms:  20   points:   5   score:    1.9
+[INFO] PocketPredictor - pocket22 -  surf_atoms:  10   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket23 -  surf_atoms:  29   points:   7   score:    1.8
+[INFO] PocketPredictor - pocket24 -  surf_atoms:  13   points:   3   score:    1.2
+[INFO] PocketPredictor - pocket25 -  surf_atoms:   9   points:   5   score:    1.2
+[INFO] PocketPredictor - pocket26 -  surf_atoms:  16   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket27 -  surf_atoms:   9   points:   4   score:    0.8
+[INFO] PocketPredictor - pocket28 -  surf_atoms:  11   points:   3   score:    0.8
+[INFO] PocketPredictor - pocket29 -  surf_atoms:  13   points:   3   score:    0.6
+[INFO] PocketPredictor - pocket30 -  surf_atoms:   8   points:   3   score:    0.6
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P49761-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P49761-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [147] elements
+[INFO] SLinkClusterer - clusters: [id:14( 31 ), id:26( 1 ), id:28( 1 ), id:31( 1 ), id:33( 1 ), id:34( 2 ), id:36( 1 ), id:37( 2 ), id:39( 3 ), id:66( 1 ), id:70( 38 ), id:91( 4 ), id:94( 1 ), id:95( 2 ), id:99( 8 ), id:105( 6 ), id:107( 3 ), id:108( 1 ), id:109( 1 ), id:111( 4 ), id:126( 4 ), id:130( 18 ), id:137( 1 ), id:138( 11 ), id:146( 1 )]
+[INFO] SLinkClusterer - clusters together: 147 / 147
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 30821
+[INFO] PocketPredictor - LIGANDABLE POINTS: 147
+[INFO] PocketPredictor - CLUSTERS: 25
+[INFO] PocketPredictor - FILTERED CLUSTERS: 11
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  32   points:  38   score:   17.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  40   points:  31   score:   11.7
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  35   points:  18   score:    7.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  21   points:  11   score:    3.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  17   points:   8   score:    2.3
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  16   points:   6   score:    2.0
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  16   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  12   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:   8   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  17   points:   3   score:    1.3
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  11   points:   3   score:    0.8
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P52333-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P52333-F1_clean.pdb]
+[INFO] SLinkClusterer - clustering [124] elements
+[INFO] SLinkClusterer - clusters: [id:19( 7 ), id:24( 2 ), id:27( 2 ), id:32( 10 ), id:36( 5 ), id:58( 29 ), id:61( 7 ), id:62( 1 ), id:63( 1 ), id:64( 1 ), id:70( 6 ), id:72( 2 ), id:112( 40 ), id:120( 8 ), id:122( 2 ), id:123( 1 )]
+[INFO] SLinkClusterer - clusters together: 124 / 124
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 15073
+[INFO] PocketPredictor - LIGANDABLE POINTS: 124
+[INFO] PocketPredictor - CLUSTERS: 16
+[INFO] PocketPredictor - FILTERED CLUSTERS: 8
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  43   points:  40   score:   17.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  32   points:  29   score:   11.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  10   points:  10   score:    2.5
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  16   points:   7   score:    2.4
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  29   points:   7   score:    2.4
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  27   points:   6   score:    2.3
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  24   points:   8   score:    2.3
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  19   points:   5   score:    1.8
+[INFO] SLinkClusterer - clustering [138] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:15( 6 ), id:19( 2 ), id:20( 1 ), id:21( 1 ), id:34( 2 ), id:36( 1 ), id:38( 2 ), id:47( 36 ), id:48( 2 ), id:55( 2 ), id:57( 1 ), id:58( 1 ), id:59( 1 ), id:60( 1 ), id:70( 6 ), id:80( 2 ), id:84( 2 ), id:87( 4 ), id:109( 5 ), id:110( 6 ), id:112( 32 ), id:117( 3 ), id:124( 1 ), id:134( 5 ), id:135( 7 ), id:136( 2 ), id:137( 3 )]
+[INFO] SLinkClusterer - clusters together: 138 / 138
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 16320
+[INFO] PocketPredictor - LIGANDABLE POINTS: 138
+[INFO] PocketPredictor - CLUSTERS: 28
+[INFO] PocketPredictor - FILTERED CLUSTERS: 11
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  39   points:  36   score:   15.2
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  55   points:  32   score:   13.3
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  18   points:   7   score:    3.0
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  18   points:   6   score:    2.1
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  17   points:   6   score:    2.1
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  16   points:   5   score:    2.0
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  13   points:   5   score:    1.5
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  12   points:   4   score:    1.4
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  12   points:   6   score:    1.4
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  21   points:   3   score:    1.0
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  12   points:   3   score:    0.8
+[INFO] SLinkClusterer - clustering [184] elements
+[INFO] SLinkClusterer - clusters: [id:14( 5 ), id:22( 2 ), id:27( 7 ), id:29( 1 ), id:30( 1 ), id:34( 1 ), id:40( 4 ), id:43( 18 ), id:47( 1 ), id:50( 2 ), id:62( 1 ), id:69( 2 ), id:72( 7 ), id:74( 6 ), id:82( 1 ), id:85( 11 ), id:88( 1 ), id:97( 36 ), id:101( 2 ), id:105( 1 ), id:116( 5 ), id:119( 5 ), id:120( 1 ), id:121( 1 ), id:122( 1 ), id:124( 1 ), id:141( 1 ), id:165( 49 ), id:176( 3 ), id:183( 7 )]
+[INFO] SLinkClusterer - clusters together: 184 / 184
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 15723
+[INFO] PocketPredictor - LIGANDABLE POINTS: 184
+[INFO] PocketPredictor - CLUSTERS: 30
+[INFO] PocketPredictor - FILTERED CLUSTERS: 13
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  49   points:  49   score:   19.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  41   points:  36   score:   14.4
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  28   points:  18   score:    6.3
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  24   points:  11   score:    3.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  16   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  23   points:   7   score:    2.9
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  17   points:   7   score:    2.2
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  15   points:   4   score:    1.8
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  15   points:   5   score:    1.6
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  16   points:   5   score:    1.4
+[INFO] PocketPredictor - pocket11 -  surf_atoms:   9   points:   6   score:    1.3
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  17   points:   5   score:    1.0
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  11   points:   3   score:    0.7
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P07949-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P07949-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-Q13464-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-Q13464-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-O95819-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-O95819-F1_clean.pdb]
+[INFO] PredictionVisualizer - copying [/home/apo/LBS_prediction_project/data/alphafold_clean/AF-P04626-F1_clean.pdb] to [results/alphafold/visualizations/data/AF-P04626-F1_clean.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 37.591 seconds
+[INFO] Console - results saved to directory [/home/apo/LBS_prediction_project/results/alphafold]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 42.038 seconds.

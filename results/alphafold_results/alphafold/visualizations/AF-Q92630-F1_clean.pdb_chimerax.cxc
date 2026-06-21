@@ -1,0 +1,43 @@
+open data/AF-Q92630-F1_clean.pdb
+surf
+hide solvent
+color protein #bdbdde
+color ligand magenta
+
+
+color name color_pocket1 #5c93e6
+color name color_pocket2 #5d47b3
+color name color_pocket3 #ca5ce6
+color name color_pocket4 #b34788
+color name color_pocket5 #e65c5c
+color name color_pocket6 #b38847
+
+name pocket1_atoms @@serial_number=1670 @@serial_number=1682 @@serial_number=1794 @@serial_number=1798 @@serial_number=1786 @@serial_number=1789 @@serial_number=1697 @@serial_number=1698 @@serial_number=1790 @@serial_number=1299 @@serial_number=636 @@serial_number=1271 @@serial_number=1274 @@serial_number=1269 @@serial_number=1275 @@serial_number=1110 @@serial_number=1112 @@serial_number=1258 @@serial_number=1248 @@serial_number=1276 @@serial_number=1669 @@serial_number=1796 @@serial_number=1797 @@serial_number=949 @@serial_number=1791 @@serial_number=1249 @@serial_number=673 @@serial_number=693 @@serial_number=641 @@serial_number=642 @@serial_number=644 @@serial_number=671 @@serial_number=648 @@serial_number=692 @@serial_number=800 @@serial_number=635 @@serial_number=639 @@serial_number=816 @@serial_number=817 @@serial_number=818 @@serial_number=1250 @@serial_number=1252 @@serial_number=1253 @@serial_number=1281 @@serial_number=1283 @@serial_number=1293
+color pocket1_atoms color_pocket1
+
+name pocket2_atoms @@serial_number=662 @@serial_number=663 @@serial_number=888 @@serial_number=890 @@serial_number=666 @@serial_number=832 @@serial_number=818 @@serial_number=669 @@serial_number=671 @@serial_number=881 @@serial_number=921 @@serial_number=922 @@serial_number=1811 @@serial_number=1812 @@serial_number=1813 @@serial_number=950 @@serial_number=885 @@serial_number=1639 @@serial_number=1640 @@serial_number=1938 @@serial_number=1819 @@serial_number=1929 @@serial_number=1913 @@serial_number=1922 @@serial_number=1817 @@serial_number=1797 @@serial_number=1641 @@serial_number=1658 @@serial_number=1943 @@serial_number=1798
+color pocket2_atoms color_pocket2
+
+name pocket3_atoms @@serial_number=1890 @@serial_number=1886 @@serial_number=1889 @@serial_number=936 @@serial_number=938 @@serial_number=939 @@serial_number=905 @@serial_number=907 @@serial_number=919 @@serial_number=915 @@serial_number=914 @@serial_number=1897 @@serial_number=1899 @@serial_number=1901 @@serial_number=1633 @@serial_number=1818 @@serial_number=1829 @@serial_number=1831 @@serial_number=1927 @@serial_number=1824 @@serial_number=1883 @@serial_number=1867 @@serial_number=940 @@serial_number=1871 @@serial_number=1817
+color pocket3_atoms color_pocket3
+
+name pocket4_atoms @@serial_number=1975 @@serial_number=1977 @@serial_number=1962 @@serial_number=1964 @@serial_number=2220 @@serial_number=2221 @@serial_number=1316 @@serial_number=1318 @@serial_number=1320 @@serial_number=1673
+color pocket4_atoms color_pocket4
+
+name pocket5_atoms @@serial_number=230 @@serial_number=233 @@serial_number=250 @@serial_number=1145 @@serial_number=1147 @@serial_number=753 @@serial_number=1146 @@serial_number=259 @@serial_number=1159 @@serial_number=1171 @@serial_number=1162 @@serial_number=575 @@serial_number=555 @@serial_number=556 @@serial_number=1161 @@serial_number=235 @@serial_number=238 @@serial_number=240 @@serial_number=579 @@serial_number=277
+color pocket5_atoms color_pocket5
+
+name pocket6_atoms @@serial_number=2072 @@serial_number=2082 @@serial_number=1570 @@serial_number=1572 @@serial_number=1573 @@serial_number=2076 @@serial_number=2071 @@serial_number=2073 @@serial_number=2077 @@serial_number=2078 @@serial_number=2105 @@serial_number=3038 @@serial_number=2991 @@serial_number=3010 @@serial_number=3021 @@serial_number=3026 @@serial_number=3030
+color pocket6_atoms color_pocket6
+
+
+
+open data/AF-Q92630-F1_clean.pdb_points.pdb.gz
+color by bfactor #2 palette lime:red  range 0,0.7
+
+
+set bgcolor #242455
+transparency 35
+graphics silhouettes true
+lighting full
+view

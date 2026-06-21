@@ -15,7 +15,7 @@ CRYSTAL_MASTER = (
     "results/master_pocket_table_no_duplicates.xlsx"
 )
 
-PDB_DIR = "data/pdb_raw"
+PDB_DIR = "data/pdb_clean"
 
 AF_DIR = "data/alphafold_clean"
 
@@ -175,7 +175,7 @@ for _, kinase_row in kinases.iterrows():
 
     crystal_file = os.path.join(
         PDB_DIR,
-        f"{pdb_id}.pdb"
+        f"{pdb_id}_clean.pdb"
     )
 
     af_file = os.path.join(

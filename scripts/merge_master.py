@@ -6,7 +6,7 @@ import numpy as np
 # =====================================================
 
 CRYSTAL_MASTER = (
-    "results/crystal_pockets_in_af_coordinates.xlsx"
+    "results/master_pocket_table_no_duplicates.xlsx"
 )
 
 KINCORE_FILE = (
