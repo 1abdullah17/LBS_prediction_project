@@ -4,7 +4,7 @@ data/pdb_clean/
 data/alphafold_raw/
 data/alphafold_clean/
 
-# P2Rank installation
+x# P2Rank installation
 p2rank_2.5/
 
 # Figures
@@ -33,3 +33,8 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+*Zone.Identifier
+__pycache__/
+*.pyc
+.DS_Store
+
