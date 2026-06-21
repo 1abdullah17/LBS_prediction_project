@@ -72,77 +72,34 @@ Install required packages:
 pip install pandas numpy biopython matplotlib
 ```
 
+Alternatively, create the project environment using:
+
+```bash
+conda env create -f environment.yml
+conda activate lbs_project
+```
+
 ---
 
 ## Workflow
 
-The complete analysis workflow is shown below.
+The complete analysis workflow is illustrated below and serves as the primary guide for reproducing the study.
 
-![Pipeline Overview](pipeline.png)
+![Pipeline Overview](docs/pipeline.png)
+
+**Figure 1.** Computational workflow used for ligand-binding pocket prediction, annotation, and comparison between AlphaFold-predicted and experimentally determined kinase structures.
 
 ### Pipeline Description
 
-The workflow consists of two parallel analysis branches.
+The workflow consists of two parallel branches that process AlphaFold models and experimentally determined crystal structures before integrating the results into a common pocket comparison framework.
 
-The **AlphaFold branch** begins with downloading and cleaning AlphaFold kinase models. Binding pockets are predicted using P2Rank and summarized in a master pocket table. Experimental ligand coordinates obtained from crystal structures are then aligned into the AlphaFold coordinate system. The predicted pocket closest to the transformed ligand centroid is assigned as the ligand-binding pocket, and the resulting annotations are integrated into a final AlphaFold pocket dataset.
+In the **AlphaFold branch**, kinase structures are downloaded and cleaned by removing low-confidence regions based on residue-level confidence scores. P2Rank is then used to identify potential ligand-binding pockets and calculate pocket descriptors. Experimental ligand coordinates derived from crystal structures are mapped into the AlphaFold coordinate system through structural alignment, allowing predicted pockets to be annotated according to their proximity to known ligand-binding sites.
 
-The **crystal structure branch** processes experimentally determined kinase structures. Crystal structures are downloaded, analyzed using P2Rank, and transformed into the AlphaFold reference frame to enable direct comparison with AlphaFold-derived pocket predictions. This produces an annotated crystal structure pocket dataset.
+In the **crystal structure branch**, experimentally determined kinase structures are retrieved and analyzed using the same pocket prediction strategy. Pocket coordinates are transformed into the AlphaFold reference frame, enabling direct comparison between pockets identified in experimental and predicted structures.
 
-The final stage of the workflow identifies corresponding pockets between AlphaFold and crystal structures. Pocket centers are compared using Euclidean distance, and the nearest pocket pairs are assigned as corresponding pockets. Annotation labels from both datasets are then compared to evaluate agreement between AlphaFold-derived and experimentally derived binding-site predictions.
+The final stage of the workflow identifies corresponding pockets between AlphaFold and crystal structures based on spatial proximity. Annotation labels assigned independently in both datasets are then compared to evaluate the extent to which AlphaFold-derived pocket predictions reproduce experimentally observed binding-site annotations.
 
----
-
-## Output Files
-
-### Alphafold_master_annotated
-
-Annotated pocket dataset generated from AlphaFold structures.
-
-Contains:
-
-* Pocket rank
-* Pocket score
-* Prediction probability
-* Pocket coordinates
-* Pocket descriptors
-* Ligand-binding annotations
-
----
-
-### crystal_master_annotated
-
-Annotated pocket dataset generated from experimentally determined crystal structures.
-
-Contains:
-
-* Pocket coordinates
-* Pocket descriptors
-* Pocket annotations
-
----
-
-### pocket_correspondence
-
-Mapping of corresponding pockets between AlphaFold and crystal structures.
-
-Contains:
-
-* Kinase identifiers
-* Pocket pairs
-* Pocket-center distances
-
----
-
-### Annotation_agreement
-
-Final comparison dataset used to evaluate consistency between AlphaFold and crystal structure annotations.
-
-Contains:
-
-* Matched pocket pairs
-* Annotation labels
-* Agreement status
-* Pocket prediction metrics
+The execution order of all analysis steps, intermediate datasets, and data dependencies is summarized in **Figure 1** and should be used as the primary reference when reproducing the workflow.
 
 ---
 
@@ -150,73 +107,81 @@ Contains:
 
 ### Structure Preparation
 
-AlphaFold models were filtered using residue-level pLDDT scores. Residues with average pLDDT values below 50 were removed prior to analysis.
+AlphaFold models were filtered using residue-level pLDDT confidence scores. Residues with average pLDDT values below 50 were removed before pocket analysis to improve structural reliability.
 
-Crystal structures were cleaned by retaining relevant protein chains and removing non-essential molecules.
+Crystal structures were cleaned by retaining relevant protein chains and removing water molecules and non-essential heteroatoms.
 
 ### Pocket Prediction
 
-Binding pockets were predicted using:
+Binding pockets were predicted using P2Rank:
 
-* P2Rank default model for crystal structures
-* P2Rank AlphaFold-specific model for AlphaFold structures
+* AlphaFold-specific prediction model for AlphaFold structures
+* Default prediction model for crystal structures
 
 For each predicted pocket, information including pocket rank, score, probability, center coordinates, and residue composition was extracted.
 
-### Ligand Mapping
+### Ligand Mapping and Annotation
 
-Experimental ligand coordinates were obtained from crystal structures and transformed into the AlphaFold coordinate frame through structural alignment.
+Experimental ligand coordinates were extracted from ligand-bound crystal structures and transformed into the AlphaFold coordinate system through structural alignment.
 
-Ligand centroids were then used to identify the predicted pocket most closely associated with the experimentally observed binding site.
+The transformed ligand centroids were then used to identify the predicted pocket most closely associated with the experimentally observed binding site, enabling biologically meaningful pocket annotation.
 
 ### Pocket Correspondence Analysis
 
-Pocket centers from AlphaFold and crystal structures were compared after structural alignment.
+Following structural alignment, pocket center coordinates from AlphaFold and crystal structures were compared using Euclidean distance.
 
-For each AlphaFold pocket, the nearest crystal pocket was identified based on Euclidean distance.
-
-The resulting correspondence table was used to compare annotation labels and evaluate binding-site recovery.
-
----
-
-## Key Findings
-
-* AlphaFold kinase models generally exhibited high structural confidence and were suitable for binding-site analysis.
-* P2Rank successfully identified biologically relevant binding regions in both AlphaFold and crystal structures.
-* Pocket size showed a positive relationship with P2Rank score.
-* Pocket score alone was not strongly associated with agreement with experimentally observed ligand-binding sites.
-* Ligand-bound (holo) structures produced pocket predictions that were substantially closer to experimentally observed ligand positions than apo structures.
-* Nearly half of the pockets identified in AlphaFold and crystal structures could be matched through spatial correspondence analysis.
-* Most shared pockets exhibited consistent biological annotations between AlphaFold and crystal structure datasets.
+Spatially nearest pockets were assigned as corresponding pocket pairs, providing a framework for evaluating annotation consistency between predicted and experimentally determined structures.
 
 ---
 
 ## Repository Structure
 
 ```text
-project/
-│
-├── scripts/
-│   ├── download_af_model.py
-│   ├── parse_p2rank.py
-│   ├── ligand_coordinates.py
-│   ├── annotate_atp_pockets.py
-│   ├── annotation_final.py
-│   ├── download_pdb.py
-│   ├── pdb_p2rank.py
-│   ├── transforming_crystal.py
-│   ├── shared_pockets.py
-│   └── annotation_final2.py
+.
+├── README.md
+├── environment.yml
+├── alphafold.ds
 │
 ├── data/
+│   ├── alphafold_raw/
+│   ├── alphafold_clean/
+│   ├── pdb_raw/
+│   ├── pdb_clean/
+│   └── kinases_list.xlsx
 │
-├── results/
-│
-├── figures/
+├── docs/
 │   └── pipeline.png
 │
-└── README.md
+├── scripts/
+│   ├── alphafold_scripts/
+│   ├── pdb_scripts/
+│   └── shared/
+│
+├── results/
+│   ├── alphafold_results/
+│   ├── pdb_results/
+│   ├── joint/
+│   └── figures/
+│
+├── figures/
+│
+├── debug/
+│   └── egfr_af_superposed.pdb
+│
+└── p2rank_2.5/
 ```
+
+---
+
+## Key Findings
+
+* AlphaFold kinase models generally exhibited sufficient structural confidence for binding-site analysis.
+* P2Rank successfully identified biologically relevant binding regions in both AlphaFold and crystal structures.
+* Larger pockets generally received higher P2Rank scores, reflecting the influence of pocket geometry and solvent-accessible surface area.
+* Pocket score alone was not strongly associated with agreement with experimentally observed ligand-binding sites.
+* Ligand-bound (holo) structures produced pocket predictions that were substantially closer to experimentally observed ligand positions than apo structures.
+* Many AlphaFold-derived pockets could be matched to corresponding crystal structure pockets through spatial correspondence analysis.
+* Shared pockets frequently exhibited consistent biological annotations between AlphaFold and experimentally determined structures.
 
 ---
 
